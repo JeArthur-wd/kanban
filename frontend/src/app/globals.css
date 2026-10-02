@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-accent: #ecad0a;
+  --color-primary: #209dd7;
+  --color-secondary: #753991;
+  --color-navy: #032147;
+  --color-muted: #888888;
+  --font-sans: var(--font-geist-sans);
+}
+
+body {
+  background: linear-gradient(160deg, #f6f9fc 0%, #e9f2f9 100%);
+  background-attachment: fixed;
+  color: #032147;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
